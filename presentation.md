@@ -87,6 +87,10 @@ Markdown
 ![Images](images.png)
 
     Images
+
+@fa-lightbulb-o Font Awesome
+
+    Font Awesome
     
 Markdown
 

@@ -62,6 +62,11 @@ The solution is to use the pre tag to wrap your code blocks. It's not great,
 but it's the best I could think of and I think it's adequate. And it's still
 valid markdown.
 
+### Font Awesome
+
+you may include font awesome icons. Just add the icon name preceded with an @-sign, e.g.
+@fa-home, thanks to showdown-icon.js
+
 Browser Support
 ---------------
 
@@ -83,8 +88,10 @@ Credits & Thanks
 This tool depends on the following software
 
 - [Showdown](https://github.com/coreyti/showdown)
+- [Showdown-Icon](https://github.com/dbtek/showdown-icon)
 - [jQuery](http://jquery.com)
 - [CSS3 Button Design from Red Team Design](http://www.red-team-design.com/wp-content/uploads/2011/09/awesome-css3-buttons.html)
+- [Font Awesome](http://fontawesome.io)
 
 License
 -------
