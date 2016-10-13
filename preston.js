@@ -40,7 +40,8 @@ function parsePreston(text){
 }
 
 function markdown(text){
-    return (new (Showdown.converter)).makeHtml(text)
+    var converter = new showdown.Converter({ extensions: ['icon'] })
+    return converter.makeHtml(text)
 }
 
 var index = -1, win, slides
